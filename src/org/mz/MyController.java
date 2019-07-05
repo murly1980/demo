@@ -14,7 +14,7 @@ public class MyController {
 	@RequestMapping("/")
 	public String show(@ModelAttribute("user") User xyz) {
 		//model.addAttribute(new User());
-		System.out.println("show");
+		System.out.println("show good");
 		return "index";
 	}
 	
